@@ -10,4 +10,6 @@ Este é um projeto React simples que demonstra a criação de componentes reutil
 <p> Divisao.jsx: Realiza a divisão de dois números. </p>
 
 <p> PrecisoEstudar.jsx: Exibe a frase "Preciso estudar NOME-DA-TECNOLOGIA" dentro de uma tag  </p>
-![Captura de tela 2025-02-27 174332](https://github.com/user-attachments/assets/fa42e409-926c-42c9-b8f7-01cb5d54a6d9)
+
+
+![Captura de tela 2025-02-27 174332](https://github.com/user-attachments/assets/4976b526-b09c-4a21-a478-22c7c3f3cacd)
