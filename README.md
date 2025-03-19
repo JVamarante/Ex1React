@@ -11,5 +11,11 @@ Este é um projeto React simples que demonstra a criação de componentes reutil
 
 <p> PrecisoEstudar.jsx: Exibe a frase "Preciso estudar NOME-DA-TECNOLOGIA" dentro de uma tag  </p>
 
+<h1>Código</h1>
+
+![Captura de tela 2025-02-27 180407](https://github.com/user-attachments/assets/6634aa9c-d9f3-4708-b231-393d8689d8f1)
+
+<h1>Resultado</h1>
 
 ![Captura de tela 2025-02-27 174332](https://github.com/user-attachments/assets/4976b526-b09c-4a21-a478-22c7c3f3cacd)
+
