@@ -5,8 +5,8 @@ import Imagens from './components/Imagens';
 const App = () => {
   return (
     <div>
-      <RenderizandoComFuncoes  />
-      <Imagens />
+      <RenderizandoComFuncoes/>
+      <Imagens/>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const RenderizandoComFuncoes = () => {
 
     function escolhaDeRenderizacao(oQueRenderizar) {
-        if (oQueRenderizar) {
+        if (oQueRenderizar === "h1") {
             return <h1>Teste de h1</h1>
         }
         else {
@@ -15,8 +15,9 @@ const RenderizandoComFuncoes = () => {
 
 
   return (
-    <div>{escolhaDeRenderizacao(h2)}
-        {escolhaDeRenderizacao(h1)}
+    <div>
+        {escolhaDeRenderizacao("h2")}
+        {escolhaDeRenderizacao("h1")} 
     </div>
   )
 }
