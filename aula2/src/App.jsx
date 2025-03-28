@@ -1,12 +1,10 @@
 import React from 'react'
-import RenderizandoComFuncoes from './components/RenderizandoComFuncoes'
-import Imagens from './components/Imagens';
+import TrabalhandoComImagens from './components/TrabalhandoComImagens';
 
 const App = () => {
   return (
     <div>
-      <RenderizandoComFuncoes/>
-      <Imagens/>
+      <TrabalhandoComImagens/>
     </div>
   )
 }
