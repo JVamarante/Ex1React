@@ -10,6 +10,7 @@ const ListadeAlunos = () => {
             const data = await response.json()
             setAlunos(data)
         }
+
         fetchData()
     }, [])
     
@@ -24,10 +25,11 @@ const ListadeAlunos = () => {
                 </tr>
             </thead>
             <tbody>
-                {alunos.map((aluno) => (
+                {
+                alunos.map((aluno) => (
                     <tr key={aluno.id}>
                         <td>{aluno.id}</td>
-                        <td>{aluno.nomel}</td>
+                        <td>{aluno.nome}</td>
                         <td>{aluno.email}</td>
                     </tr>
                 ))
