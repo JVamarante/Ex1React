@@ -25,12 +25,11 @@ const ListadeAlunos = () => {
             body: JSON.stringify({ nome, email })
         })
         
-        // Atualiza a lista após adicionar
         const response = await fetch("http://localhost:3000/alunos")
         const data = await response.json()
         setAlunos(data)
         
-        // Limpa o formulário
+    
         setNome('')
         setEmail('')
     }
